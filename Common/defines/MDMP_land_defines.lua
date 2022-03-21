@@ -1,6 +1,7 @@
 -- Thanks thrasy :)
 
 NDefines.NMilitary.PLANNING_MAX = 0.50 -- Vanilla is 0.30 
+NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.2 -- 0.2
 
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 1000             -- WAS 500
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000			   -- WAS 500
