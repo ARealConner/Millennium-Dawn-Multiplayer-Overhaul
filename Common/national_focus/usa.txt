@@ -9771,13 +9771,12 @@ focus_tree = {
 		y = 4
 		relative_position_id = USA_diplomacy_americas
 
-		cost = 10
+		cost = 1
 
 		prerequisite = { focus = USA_the_freedom_league }
 
 		available = {
-			country_exists = CUB
-			CUB = { NOT = { is_subject_of = USA } }
+			always = yes
 		}
 
 		will_lead_to_war_with = CUB
@@ -9785,11 +9784,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus USA_settle_the_cuban_question"
-			create_wargoal = {
-				target = CUB
-				type = puppet_wargoal_focus
-			}
-			add_ai_strategy = { type = conquer id = "CUB" value = 100 }
 		}
 
 		ai_will_do = {

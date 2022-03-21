@@ -2556,13 +2556,15 @@ focus_tree = {
 		available = {
 			if = {
 				limit = { has_idea = the_military has_idea = communist_cadres }
-				custom_trigger_tooltip = {
-					tooltip = military_at_least_enthusiastic_tt
-					check_variable = { the_military_opinion > 79 }
-				}
-				custom_trigger_tooltip = {
-					tooltip = communist_cadres_at_least_enthusiastic_tt
-					check_variable = { communist_cadres_opinion > 79 }
+				OR = {
+					custom_trigger_tooltip = {
+						tooltip = military_at_least_enthusiastic_tt
+						check_variable = { the_military_opinion > 79 }
+					}
+					custom_trigger_tooltip = {
+						tooltip = communist_cadres_at_least_enthusiastic_tt
+						check_variable = { communist_cadres_opinion > 79 }
+					}
 				}
 			}
 			else_if = {
@@ -2576,20 +2578,6 @@ focus_tree = {
 				limit = { NOT = { has_idea = the_military } has_idea = communist_cadres }
 				custom_trigger_tooltip = {
 					tooltip = communist_cadres_at_least_enthusiastic_tt
-					check_variable = { communist_cadres_opinion > 79 }
-				}
-			}
-			else_if = {
-				limit = { has_idea = the_military has_idea = communist_cadres }
-				custom_trigger_tooltip = {
-					tooltip = military_at_least_enthusiastic_tt
-					check_variable = { the_military_opinion > 79 }
-				}
-			}
-			else_if = {
-				limit = { has_idea = the_military has_idea = communist_cadres }
-				custom_trigger_tooltip = {
-					tooltip = military_at_least_enthusiastic_tt
 					check_variable = { communist_cadres_opinion > 79 }
 				}
 			}
@@ -7334,14 +7322,16 @@ communist_cadres_at_least_positive_opinion = yes
 				has_idea = zeng_qinghong_thought
 			}
 			if = {
-				limit = { has_idea = the_military has_idea = communist_cadres }
-				custom_trigger_tooltip = {
-					tooltip = military_at_least_enthusiastic_tt
-					check_variable = { the_military_opinion > 79 }
-				}
-				custom_trigger_tooltip = {
-					tooltip = communist_cadres_at_least_enthusiastic_tt
-					check_variable = { communist_cadres_opinion > 79 }
+				OR = {
+					limit = { has_idea = the_military has_idea = communist_cadres }
+					custom_trigger_tooltip = {
+						tooltip = military_at_least_enthusiastic_tt
+						check_variable = { the_military_opinion > 79 }
+					}
+					custom_trigger_tooltip = {
+						tooltip = communist_cadres_at_least_enthusiastic_tt
+						check_variable = { communist_cadres_opinion > 79 }
+					}
 				}
 			}
 			else_if = {
