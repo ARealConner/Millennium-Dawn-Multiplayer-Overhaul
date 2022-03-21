@@ -1,0 +1,42 @@
+
+state = {
+	id = 861
+	name = "STATE_861"
+
+	history = {
+		owner = ZZZ
+		victory_points = {
+			9507 10
+		}
+		victory_points = {
+			7632 1
+		}
+		buildings = {
+			infrastructure = 2
+			internet_station = 0
+			industrial_complex = 0
+			offices = 0
+			air_base = 0
+			9507 = {
+				naval_base = 0
+
+			}
+
+		}
+		add_core_of = ZZZ
+		2017.1.1 = {
+			add_manpower = 1
+			buildings = {
+				internet_station = 0
+				offices = 0
+			}
+		}
+	}
+
+	provinces = {
+		7632 7660 9495 9507
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}

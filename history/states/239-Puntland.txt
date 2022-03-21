@@ -1,0 +1,48 @@
+
+state = {
+	id = 239
+	name = "STATE_239"
+
+	history = {
+		owner = ZZZ
+		victory_points = {
+			1964 1
+		}
+		victory_points = {
+			4909 1
+		}
+		victory_points = {
+			11090 5
+		}
+		buildings = {
+			11090 = {
+				naval_base = 0
+
+			}
+
+		}
+		add_core_of = ZZZ
+		add_core_of = ZZZ
+		add_core_of = ZZZ
+		2017.1.1 = {
+			owner = ZZZ
+			add_core_of = ZZZ
+			ZZZ = {
+				set_province_controller = 12840
+				set_province_controller = 1964
+				set_province_controller = 10818
+				set_province_controller = 4909
+			}
+			remove_core_of = ZZZ
+			add_manpower = 1
+		}
+
+	}
+
+	provinces = {
+		1964 4909 10818 11090 13865 13866
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}

@@ -1,0 +1,39 @@
+
+state = {
+	id = 293
+	name = "STATE_293"
+	
+	resources = {
+		tungsten = 15
+		chromium = 14
+	}
+
+	history = {
+		owner = ZZZ
+		victory_points = {
+			12677 5 
+		}
+		victory_points = {
+			12504 4 
+		}
+		buildings = {
+			infrastructure = 2
+			internet_station = 0
+
+		}
+		add_core_of = ZZZ
+		2017.1.1 = {
+			add_manpower = 1
+			buildings = {
+				internet_station = 0
+			}
+		}
+	}
+
+	provinces = {
+		12504 12677 9592 9705 
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}

@@ -1,0 +1,45 @@
+
+state = {
+	id = 317
+	name = "STATE_317"
+	resources = {
+		oil = 5
+		steel = 8.000
+	}
+
+	history = {
+		owner = ZZZ
+		victory_points = {
+			5139 10
+		}
+		victory_points = {
+			13757 2
+		}
+		buildings = {
+			infrastructure = 2
+			internet_station = 0
+			air_base = 0
+			industrial_complex = 0
+			5139 = {
+				naval_base = 0
+
+			}
+
+		}
+		add_core_of = ZZZ
+		2017.1.1 = {
+			buildings = {
+				internet_station = 0
+			}
+			add_manpower = 1
+		}
+
+	}
+
+	provinces = {
+		5139 8207 3214 3220 3290 13755 13756 13757 13758 13759
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}

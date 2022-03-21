@@ -1,0 +1,40 @@
+
+state = {
+	id = 357
+	name = "STATE_357"
+
+	resources = {
+		chromium = 52
+	}
+
+	history = {
+		owner = ZZZ
+		victory_points = {
+			1897 3 
+		}
+		buildings = {
+			infrastructure = 0
+			internet_station = 0
+
+		}
+		add_core_of = ZZZ
+		add_core_of = ZZZ
+		2017.1.1 = {
+			buildings = {
+				internet_station = 0
+			}
+			owner = ZZZ
+			remove_core_of = ZZZ
+			add_manpower = 1
+
+		}
+
+	}
+
+	provinces = {
+		1897 2094 7377 
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}
