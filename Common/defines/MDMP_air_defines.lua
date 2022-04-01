@@ -6,8 +6,8 @@ NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100 -- may change
 NDefines.NAir.AIR_WING_FLIGHT_SPEED_MULT = 0.2 -- makes redeployement of fighters faster vanilla is 0.02
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0
 
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.3 -- 0.04 vanila (md was 0.08)
-NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.5 -- 0.04 vanila (md was 0.08)
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.2 -- 0.04 vanila (md was 0.08)
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.4 -- 0.04 vanila (md was 0.08)
 -- logi strike nerf
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_NO_TRUCK_DISRUPTION_FACTOR = 0.001 -- If a unit isn't motorized, still disrupt its supply by damage * this
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_DAMAGE_FACTOR = 0.02
