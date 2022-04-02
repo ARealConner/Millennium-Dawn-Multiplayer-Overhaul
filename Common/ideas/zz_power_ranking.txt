@@ -12,7 +12,7 @@ ideas = {
 				### nerfed due to pp from nuclear state modifier
 				political_power_gain = 0.6
 				political_power_factor = 0.6
-				join_faction_tension = -1.00
+				join_faction_tension = -2.00
 				custom_modifier_tooltip = superpower_tt
 			}
 		}
@@ -27,7 +27,7 @@ ideas = {
 				### Great Power: ###
 				political_power_gain = 0.45
 				political_power_factor = 0.45
-				join_faction_tension = -1.00
+				join_faction_tension = -2.00
 				custom_modifier_tooltip = great_power_tt
 			}
 		}
@@ -42,7 +42,7 @@ ideas = {
 				### Large Power: ###
 				political_power_gain = 0.3
 				political_power_factor = 0.3
-				join_faction_tension = -1.00
+				join_faction_tension = -2.00
 				custom_modifier_tooltip = large_power_tt
 			}
 		}
@@ -56,7 +56,7 @@ ideas = {
 				### Regional Power: ###
 				political_power_gain = 0.2
 				political_power_factor = 0.2
-				join_faction_tension = -1.00
+				join_faction_tension = -2.00
 				custom_modifier_tooltip = regional_power_tt
 			}
 		}
@@ -68,7 +68,7 @@ ideas = {
 				can_create_factions = yes
 			}
 			modifier = {
-				join_faction_tension = -1.00
+				join_faction_tension = -2.00
 				#custom_modifier_tooltip = minor_power_tt
 			}
 		}
@@ -82,7 +82,7 @@ ideas = {
 			modifier = {
 				#Non-power:
 				political_power_factor = -0.20
-				join_faction_tension = -1.00
+				join_faction_tension = -2.00
 				custom_modifier_tooltip = non_power_tt
 			}
 		}

@@ -147,7 +147,7 @@ branch_intelligence = {
 			}
 		}
 		modifiers_during_progress = {
-			civilian_factory_use = 10
+			civilian_factory_use = 0
 		}
 		level = {
 			modifier = {
@@ -418,7 +418,7 @@ branch_operative = {
 		}
 
 		modifiers_during_progress = {
-			civilian_factory_use = 10
+			civilian_factory_use = 0
 		}
 
 		level = {
@@ -591,7 +591,7 @@ branch_operative = {
 		}
 
 		modifiers_during_progress = {
-			civilian_factory_use = 10
+			civilian_factory_use = 0
 		}
 
 		level = {
@@ -645,7 +645,7 @@ branch_crypto = {
 		}
 
 		modifiers_during_progress = {
-			civilian_factory_use = 8
+			civilian_factory_use = 0
 		}
 
 		level = {
@@ -748,7 +748,7 @@ branch_crypto = {
 			has_tech = sociable_machines
 		}
 		modifiers_during_progress = {
-			civilian_factory_use = 15
+			civilian_factory_use = 0
 		}
 		level = {
 			modifier = {

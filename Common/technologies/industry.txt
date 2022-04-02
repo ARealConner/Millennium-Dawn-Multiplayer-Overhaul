@@ -1103,7 +1103,7 @@ technologies = {
 
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech modern_gmo" }
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		path = {
 			leads_to_tech = gene_therapy
@@ -1166,7 +1166,7 @@ technologies = {
 
 		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech gene_therapy" }
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		path = {
 			leads_to_tech = genetically_modified_crops
@@ -1217,7 +1217,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2000
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		path = {
 			leads_to_tech = gene_targeting_pesticides
@@ -1267,7 +1267,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2005
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		path = {
 			leads_to_tech = synthetic_life
@@ -1325,7 +1325,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2010
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		path = {
 			leads_to_tech = safe_cloning
@@ -1387,7 +1387,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2015
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		path = {
 			leads_to_tech = crispr_treatment
@@ -1449,7 +1449,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2020
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		path = {
 			leads_to_tech = crispr_gene_edited_crops
@@ -1511,7 +1511,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2025
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		path = {
 			leads_to_tech = genetically_modified_humans
@@ -1573,7 +1573,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2030
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		folder = {
 			name = civilian_folder
@@ -1630,7 +1630,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2003
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		folder = {
 			name = civilian_folder
@@ -1684,7 +1684,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2000
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		folder = {
 			name = civilian_folder
@@ -1734,7 +1734,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2005
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		folder = {
 			name = civilian_folder
@@ -1792,7 +1792,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2010
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		folder = {
 			name = civilian_folder
@@ -1854,7 +1854,7 @@ technologies = {
 		research_cost = 1.5
 		start_year = 2015
 
-		global_building_slots_factor = 0.10
+		global_building_slots_factor = 0.15
 
 		folder = {
 			name = civilian_folder
