@@ -18,8 +18,33 @@ add_construction_bonus = {
 	group = "MDMP_RULES"
 	icon = "GFX_production_licenses"
 	option = {
-		name = yes
-		text = "RULE_OPTION_CONSTRUCTION_50+"
+		name = c50
+		text = "RULE_OPTION_CONSTRUCTION_50"
+		desc = "RULE_YES_ADD_CONSTRUCTION_BONUS_DESC"
+	}
+	option = {
+		name = c100
+		text = "RULE_OPTION_CONSTRUCTION_100"
+		desc = "RULE_YES_ADD_CONSTRUCTION_BONUS_DESC"
+	}
+	option = {
+		name = c200
+		text = "RULE_OPTION_CONSTRUCTION_200"
+		desc = "RULE_YES_ADD_CONSTRUCTION_BONUS_DESC"
+	}
+	option = {
+		name = c300
+		text = "RULE_OPTION_CONSTRUCTION_300"
+		desc = "RULE_YES_ADD_CONSTRUCTION_BONUS_DESC"
+	}
+	option = {
+		name = c500
+		text = "RULE_OPTION_CONSTRUCTION_500"
+		desc = "RULE_YES_ADD_CONSTRUCTION_BONUS_DESC"
+	}
+	option = {
+		name = c1000
+		text = "RULE_OPTION_CONSTRUCTION_1000"
 		desc = "RULE_YES_ADD_CONSTRUCTION_BONUS_DESC"
 	}
 	default = {
@@ -28,6 +53,8 @@ add_construction_bonus = {
 		desc = "RULE_NO_ADD_CONSTRUCTION_BONUS_DESC"
 	}
 }
+
+
 add_production_bonus = {
 	name = "RULE_ADD_PRODUCTION_BONUS"
 	group = "MDMP_RULES"
@@ -43,6 +70,55 @@ add_production_bonus = {
 		desc = "RULE_NO_ADD_PRODUCTION_BONUS_DESC"
 	}
 }
+
+
+add_research_bonus = {
+	name = "RULE_ADD_PRODUCTION_BONUS"
+	group = "MDMP_RULES"
+	icon = "GFX_production_licenses"
+	option = {
+		name = r25
+		text = "RULE_OPTION_RESEARCH_25"
+		desc = "RULE_YES_ADD_RESEARCH_BONUS_DESC"
+	}
+	option = {
+		name = r50
+		text = "RULE_OPTION_RESEARCH_50"
+		desc = "RULE_YES_ADD_RESEARCH_BONUS_DESC"
+	}
+	option = {
+		name = r100
+		text = "RULE_OPTION_RESEARCH_100"
+		desc = "RULE_YES_ADD_RESEARCH_BONUS_DESC"
+	}
+	option = {
+		name = r200
+		text = "RULE_OPTION_RESEARCH_200"
+		desc = "RULE_YES_ADD_RESEARCH_BONUS_DESC"
+	}
+	option = {
+		name = r300
+		text = "RULE_OPTION_RESEARCH_300"
+		desc = "RULE_YES_ADD_RESEARCH_BONUS_DESC"
+	}
+	option = {
+		name = r500
+		text = "RULE_OPTION_RESEARCH_500"
+		desc = "RULE_YES_ADD_RESEARCH_BONUS_DESC"
+	}
+	option = {
+		name = r1000
+		text = "RULE_OPTION_RESEARCH_1000"
+		desc = "RULE_YES_ADD_RESEARCH_BONUS_DESC"
+	}
+	default = {
+		name = no
+		text = "RULE_OPTION_NO"
+		desc = "RULE_NO_ADD_RESEARCH_BONUS_DESC"
+	}
+}
+
+
 remove_south_america = {
 	name = "RULE_REMOVE_SOUTH_AMERICA"
 	group = "MDMP_RULES"
@@ -58,6 +134,8 @@ remove_south_america = {
 		desc = "RULE_NO_REMOVE_SOUTH_AMERICA_DESC"
 	}
 }
+
+
 reduce_focus_time = {
 	name = "(NOT_YET_FUNCTIONAL)RULE_REDUCE_FOCUS_TIME"
 	group = "MDMP_RULES"
