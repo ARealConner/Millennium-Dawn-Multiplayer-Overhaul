@@ -22,7 +22,7 @@ pd_ai_will_offer_peace = {
 
 pd_ai_will_accept = {
 	# base
-	set_temp_variable = { will_accept = -100 }
+	set_temp_variable = { will_accept = -10000 }
 			
 	# close to surrender 
 	set_temp_variable = { sp = var:THIS.surrender_progress }

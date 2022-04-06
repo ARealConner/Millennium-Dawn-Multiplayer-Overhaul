@@ -116,7 +116,25 @@ ideas = {
 		}
 
 		####RESEARCH####
-		construction_50 = {
+		research_25 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				research_speed_factor = 0.25
+			}
+		}
+		research_50 = {
 			
 			allowed = {
 				always = no
@@ -132,6 +150,341 @@ ideas = {
 
 			modifier = {
 				research_speed_factor = 0.5
+			}
+		}
+		research_100 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				research_speed_factor = 1
+			}
+		}
+		research_200 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				research_speed_factor = 2
+			}
+		}
+		research_300 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				research_speed_factor = 3
+			}
+		}
+		research_500 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				research_speed_factor = 5
+			}
+		}
+
+		####PRODUCTION####
+		production_50 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				industrial_capacity_factory = 0.50
+				industrial_capacity_dockyard = 0.25
+			}
+		}
+		production_100 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				industrial_capacity_factory = 1
+				industrial_capacity_dockyard = 0.50
+			}
+		}
+		production_200 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				industrial_capacity_factory = 2
+				industrial_capacity_dockyard = 1
+			}
+		}
+		production_300 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				industrial_capacity_factory = 3
+				industrial_capacity_dockyard = 1.5
+			}
+		}
+		production_500 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				industrial_capacity_factory = 5
+				industrial_capacity_dockyard = 2.5
+			}
+		}
+
+		####CAPACITY####
+		capacity_25 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				global_building_slots_factor = 0.25
+			}
+		}
+		capacity_50 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				global_building_slots_factor = 0.5
+			}
+		}
+		capacity_100 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				global_building_slots_factor = 1
+			}
+		}
+		capacity_200 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				global_building_slots_factor = 2
+			}
+		}
+
+		####FUEL GAIN####
+		fuel_50 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				fuel_gain_factor = 0.50
+			}
+		}
+		fuel_100 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				fuel_gain_factor = 1
+			}
+		}
+		fuel_200 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				fuel_gain_factor = 2
+			}
+		}
+		fuel_300 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				fuel_gain_factor = 3
+			}
+		}
+		fuel_500 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			modifier = {
+				fuel_gain_factor = 5
 			}
 		}
 	}

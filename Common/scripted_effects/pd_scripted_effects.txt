@@ -22,22 +22,22 @@ calculate_war_reparations_cost = {
 	for_each_scope_loop  = {
 		array = THIS.owned_states
 		
-		set_temp_variable = { pts = THIS.state_strategic_value }
+		set_temp_variable = { pts = 0 }
 		round_temp_variable = pts
 		clamp_temp_variable = {
 			var = pts
 			min = 1
 		}
-		add_to_temp_variable = { action_cost = pts } 
+		add_to_temp_variable = { action_cost = 0 } 
 	}
 	
-	divide_temp_variable = { action_cost = 10 }
+	divide_temp_variable = { action_cost = 1 }
 	round_temp_variable = action_cost
 	clamp_temp_variable = {
 		var = action_cost
 		min = 1
 	}
-	set_variable = { ROOT.pd_wr_cost = action_cost }
+	set_variable = { ROOT.pd_wr_cost = 0 }
 }
 
 calculate_disarm_cost = {
@@ -46,22 +46,22 @@ calculate_disarm_cost = {
 	for_each_scope_loop  = {
 		array = THIS.owned_states
 		
-		set_temp_variable = { pts = THIS.state_strategic_value }
+		set_temp_variable = { pts = 0 }
 		round_temp_variable = pts
 		clamp_temp_variable = {
 			var = pts
 			min = 1
 		}
-		add_to_temp_variable = { action_cost = pts } 
+		add_to_temp_variable = { action_cost = 0 } 
 	}
 	
-	divide_temp_variable = { action_cost = 5 }
+	divide_temp_variable = { action_cost = 1 }
 	round_temp_variable = action_cost
 	clamp_temp_variable = {
 		var = action_cost
 		min = 1
 	}
-	set_variable = { ROOT.pd_disarm_cost = action_cost }
+	set_variable = { ROOT.pd_disarm_cost = 0 }
 }
 
 reset_peace_deal_proposal = {
@@ -260,8 +260,8 @@ remove_state_from_list = {
 }
 
 clear_vp = {
-	set_temp_variable = { root_this_pts = ROOT.vp@THIS }
-	set_temp_variable = { this_root_pts = THIS.vp@ROOT }
+	set_temp_variable = { root_this_pts = 0@THIS }
+	set_temp_variable = { this_root_pts = 0@ROOT }
 	# Substract from faction leader in case of seperate peace deal
 	if = {
 		limit = {
@@ -276,7 +276,7 @@ clear_vp = {
 				is_in_faction_with = ROOT
 				is_faction_leader = yes
 			}
-			divide_temp_variable = { this_root_pts = 2 }
+			divide_temp_variable = { this_root_pts = 1 }
 			round_temp_variable = this_root_pts
 			subtract_from_variable = { PREV.vp@THIS = this_root_pts }
 		}
@@ -291,7 +291,7 @@ clear_vp = {
 				is_in_faction_with = PREV
 				is_faction_leader = yes
 			}
-			divide_temp_variable = { root_this_pts = 2 }
+			divide_temp_variable = { root_this_pts = 1 }
 			round_temp_variable = root_this_pts
 			subtract_from_variable = { ROOT.vp@THIS = root_this_pts }
 		}
@@ -539,11 +539,7 @@ execute_peace_deal = {
 		var:giver = {
 			add_timed_idea = {
 				idea = peace_disarmed_nation
-				days = 720
-			}
-			add_timed_idea = {
-				idea = peace_civilian_economy
-				days = 720
+				days = 180
 			}
 		}
 	}

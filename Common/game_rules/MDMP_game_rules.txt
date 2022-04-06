@@ -13,6 +13,8 @@ remove_starting_planes = {
 		desc = "RULE_NO_REMOVE_STARTING_PLANES_DESC"
 	}
 }
+
+####CONSTRUCTION####
 add_construction_bonus = {
 	name = "RULE_ADD_CONSTRUCTION_BONUS"
 	group = "MDMP_RULES"
@@ -50,30 +52,119 @@ add_construction_bonus = {
 	default = {
 		name = no
 		text = "RULE_OPTION_NO"
-		desc = "RULE_NO_ADD_CONSTRUCTION_BONUS_DESC"
+		desc = "RULE_NO_ADD_BONUS_OPTION_DESC"
 	}
 }
 
-
+####PRODUCTION####
 add_production_bonus = {
 	name = "RULE_ADD_PRODUCTION_BONUS"
 	group = "MDMP_RULES"
 	icon = "GFX_production_licenses"
 	option = {
-		name = yes
-		text = "RULE_OPTION_YES"
-		desc = "RULE_YES_ADD_PRODUCTION_BONUS_DESC"
+		name = p50
+		text = "RULE_OPTION_PRODUCTION_50"
+		desc = "RULE_OPTION_PRODUCTION_50_DESC"
+	}
+	option = {
+		name = p100
+		text = "RULE_OPTION_PRODUCTION_100"
+		desc = "RULE_OPTION_PRODUCTION_100_DESC"
+	}
+	option = {
+		name = p200
+		text = "RULE_OPTION_PRODUCTION_200"
+		desc = "RULE_OPTION_PRODUCTION_200_DESC"
+	}
+	option = {
+		name = p300
+		text = "RULE_OPTION_PRODUCTION_300"
+		desc = "RULE_OPTION_PRODUCTION_300_DESC"
+	}
+	option = {
+		name = p500
+		text = "RULE_OPTION_PRODUCTION_500"
+		desc = "RULE_OPTION_PRODUCTION_500_DESC"
 	}
 	default = {
 		name = no
 		text = "RULE_OPTION_NO"
-		desc = "RULE_NO_ADD_PRODUCTION_BONUS_DESC"
+		desc = "RULE_NO_ADD_BONUS_OPTION_DESC"
 	}
 }
 
+####PRODUCTION####
+add_capacity_bonus = {
+	name = "RULE_ADD_CAPACITY_BONUS"
+	group = "MDMP_RULES"
+	icon = "GFX_production_licenses"
+	option = {
+		name = c25
+		text = "RULE_OPTION_CAPACITY_25"
+		desc = "RULE_YES_ADD_CAPACITY_BONUS_DESC"
+	}
+	option = {
+		name = c50
+		text = "RULE_OPTION_CAPACITY_50"
+		desc = "RULE_YES_ADD_CAPACITY_BONUS_DESC"
+	}
+	option = {
+		name = c100
+		text = "RULE_OPTION_CAPACITY_100"
+		desc = "RULE_YES_ADD_CAPACITY_BONUS_DESC"
+	}
+	option = {
+		name = c200
+		text = "RULE_OPTION_CAPACITY_200"
+		desc = "RULE_YES_ADD_CAPACITY_BONUS_DESC"
+	}
+	default = {
+		name = no
+		text = "RULE_OPTION_NO"
+		desc = "RULE_NO_ADD_BONUS_OPTION_DESC"
+	}
+}
 
+####FUELGAIN####
+add_fuel_bonus = {
+	name = "RULE_ADD_FUEL_BONUS"
+	group = "MDMP_RULES"
+	icon = "GFX_production_licenses"
+	option = {
+		name = f50
+		text = "RULE_OPTION_FUEL_50"
+		desc = "RULE_YES_ADD_FUEL_BONUS_DESC"
+	}
+	option = {
+		name = f100
+		text = "RULE_OPTION_FUEL_100"
+		desc = "RULE_YES_ADD_FUEL_BONUS_DESC"
+	}
+	option = {
+		name = f200
+		text = "RULE_OPTION_FUEL_200"
+		desc = "RULE_YES_ADD_FUEL_BONUS_DESC"
+	}
+	option = {
+		name = f300
+		text = "RULE_OPTION_FUEL_300"
+		desc = "RULE_YES_ADD_FUEL_BONUS_DESC"
+	}
+	option = {
+		name = f500
+		text = "RULE_OPTION_FUEL_500"
+		desc = "RULE_YES_ADD_FUEL_BONUS_DESC"
+	}
+	default = {
+		name = no
+		text = "RULE_OPTION_NO"
+		desc = "RULE_NO_ADD_BONUS_OPTION_DESC"
+	}
+}
+
+####RESEARCH####
 add_research_bonus = {
-	name = "RULE_ADD_PRODUCTION_BONUS"
+	name = "RULE_ADD_RESEARCH_BONUS"
 	group = "MDMP_RULES"
 	icon = "GFX_production_licenses"
 	option = {
@@ -106,18 +197,12 @@ add_research_bonus = {
 		text = "RULE_OPTION_RESEARCH_500"
 		desc = "RULE_YES_ADD_RESEARCH_BONUS_DESC"
 	}
-	option = {
-		name = r1000
-		text = "RULE_OPTION_RESEARCH_1000"
-		desc = "RULE_YES_ADD_RESEARCH_BONUS_DESC"
-	}
 	default = {
 		name = no
 		text = "RULE_OPTION_NO"
-		desc = "RULE_NO_ADD_RESEARCH_BONUS_DESC"
+		desc = "RULE_NO_ADD_BONUS_OPTION_DESC"
 	}
 }
-
 
 remove_south_america = {
 	name = "RULE_REMOVE_SOUTH_AMERICA"
@@ -131,19 +216,19 @@ remove_south_america = {
 	default = {
 		name = no
 		text = "RULE_OPTION_NO"
-		desc = "RULE_NO_REMOVE_SOUTH_AMERICA_DESC"
+		desc = "RULE_NO_ADD_BONUS_OPTION_DESC"
 	}
 }
 
-
+####FOCUSTIME####
 reduce_focus_time = {
-	name = "(NOT_YET_FUNCTIONAL)RULE_REDUCE_FOCUS_TIME"
+	name = "RULE_REDUCE_FOCUS_TIME"
 	group = "MDMP_RULES"
 	icon = "GFX_production_licenses"
 	default = {
 		name = no
 		text = "RULE_OPTION_NO"
-		desc = "RULE_NO_REDUCE_FOCUS_TIME_DESC"
+		desc = "RULE_NO_ADD_FOCS_BONUS_OPTION_DESC"
 	}
 	option = {
 		name = threequarters

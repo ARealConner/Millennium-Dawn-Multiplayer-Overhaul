@@ -1,8 +1,27 @@
 ideas = {
+	country = {
+		conditional_surrender = {
+			
+			allowed = {
+				always = no # Triggered via event
+			}
 
-	mobilization_laws = {
-		law = yes
-		use_list_view = no
+			picture = HUN_treaty_of_triannon
+			
+			modifier = {
+				ai_join_ally_desire_factor = -3000
+                ai_get_ally_desire_factor = -3000
+			}
+
+            rule = {
+                can_join_factions = no
+                can_create_factions = no
+            }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
 
 		peace_disarmed_nation = {	
 			picture = disarmed_nation
@@ -21,7 +40,15 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.01
+				conscription_factor = -0.90
+				war_support_factor = -1
+				consumer_goods_factor = 0.35
+				production_speed_industrial_complex_factor = -0.3
+				production_speed_arms_factory_factor = -0.3
+				conversion_cost_civ_to_mil_factor= 0.3
+				conversion_cost_mil_to_civ_factor = 0.3
+				max_fuel_factor = -0.25
+				fuel_gain_factor = -0.4
 			}
 			
 			cancel_if_invalid = no
@@ -30,11 +57,6 @@ ideas = {
 				always = no
 			}
 		}
-	}
-
-	economy = { 
-		law = yes
-		use_list_view = yes
 
 		peace_civilian_economy = {
 			picture = civilian_economy
@@ -63,31 +85,6 @@ ideas = {
 
 			allowed_to_remove = {
 				always = no
-			}
-		}
-	}
-
-	country = {
-		conditional_surrender = {
-			
-			allowed = {
-				always = no # Triggered via event
-			}
-
-			picture = HUN_treaty_of_triannon
-			
-			modifier = {
-				ai_join_ally_desire_factor = -3000
-                ai_get_ally_desire_factor = -3000
-			}
-
-            rule = {
-                can_join_factions = no
-                can_create_factions = no
-            }
-	
-			ai_will_do = {
-				factor = 0
 			}
 		}
     }

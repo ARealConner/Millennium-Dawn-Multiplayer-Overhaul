@@ -19,7 +19,7 @@ pd_calculate_province_cost = {
 			check_variable = { ROOT.pd_selected = 1 }
 		}
 		# Calculate cost
-		set_temp_variable = { pts = THIS.state_strategic_value }
+		set_temp_variable = { pts = 0 }
 		round_temp_variable = pts
 		clamp_temp_variable = {
 			var = pts
@@ -31,14 +31,14 @@ pd_calculate_province_cost = {
 				NOT = { ROOT = { has_country_flag = pd_root_gives } }
 				is_core_of = ROOT 
 			}
-			divide_temp_variable = { pts = 2 }
+			divide_temp_variable = { pts = 1 }
 		}
 		else_if = {
 			limit = { 
 				NOT = { ROOT = { has_country_flag = pd_root_gives } }
 				is_claimed_by = ROOT 
 			}
-			divide_temp_variable = { pts = 1.5 }
+			divide_temp_variable = { pts = 1 }
 		}
 	}
 	else_if = {
@@ -46,8 +46,8 @@ pd_calculate_province_cost = {
 			check_variable = { ROOT.pd_selected = 2 }
 		}
 		# Calculate cost
-		set_temp_variable = { pts = THIS.state_strategic_value }
-		divide_temp_variable = { pts = 2 }
+		set_temp_variable = { pts = 0 }
+		divide_temp_variable = { pts = 1 }
 		round_temp_variable = pts
 		clamp_temp_variable = {
 			var = pts
@@ -59,8 +59,8 @@ pd_calculate_province_cost = {
 			check_variable = { ROOT.pd_selected = 3 }
 		}
 		# Calculate cost
-		set_temp_variable = { pts = THIS.state_strategic_value }
-		divide_temp_variable = { pts = 4 }
+		set_temp_variable = { pts = 0 }
+		divide_temp_variable = { pts = 1 }
 		round_temp_variable = pts
 		clamp_temp_variable = {
 			var = pts
@@ -72,8 +72,8 @@ pd_calculate_province_cost = {
 			check_variable = { ROOT.pd_selected = 4 }
 		}
 		# Calculate cost
-		set_temp_variable = { pts = THIS.state_strategic_value }
-		divide_temp_variable = { pts = 3 }
+		set_temp_variable = { pts = 0 }
+		divide_temp_variable = { pts = 1 }
 		round_temp_variable = pts
 		clamp_temp_variable = {
 			var = pts
@@ -82,7 +82,7 @@ pd_calculate_province_cost = {
 	}
 	if = {
 		limit = { is_owned_and_controlled_by = THIS.owner }
-		multiply_temp_variable = { pts = 2 }
+		multiply_temp_variable = { pts = 0 }
 	}
 	always = yes
 }

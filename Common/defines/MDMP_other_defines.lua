@@ -18,6 +18,7 @@ NDefines.NCountry.FRONT_PROVINCE_SCORE = 0   					-- Max province score of a fro
 
 NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 14					     	    -- WAS 60 | less messages lying around at the top of your screen
 
+NDefines.NCountry.FUEL_LEASE_CONVOY_RATIO = 0.0
 
 -- free license(need to balance so off for now)
 --NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0					-- Free license

@@ -1,6 +1,98 @@
 ﻿l_english:
+ RULE_NO_ADD_BONUS_OPTION_DESC:0 "leave as default"
 #planes#
  MDMP_RULES:0 "MDMP Custom Rules"
  RULE_REMOVE_STARTING_PLANES:0 "Remove Starting Planes"
  RULE_YES_REMOVE_STARTING_PLANES_DESC:0 "This will delete all starting planes in stockpile."
  RULE_NO_REMOVE_STARTING_PLANES_DESC:0 "This will leave all airforces the same."
+
+#construction#
+ RULE_ADD_CONSTRUCTION_BONUS:0 "Construction Bonus"
+ RULE_OPTION_CONSTRUCTION_50:0 "50%"
+ RULE_OPTION_CONSTRUCTION_100:0 "100%"
+ RULE_OPTION_CONSTRUCTION_200:0 "200%"
+ RULE_OPTION_CONSTRUCTION_300:0 "300%"
+ RULE_OPTION_CONSTRUCTION_500:0 "500%"
+ RULE_OPTION_CONSTRUCTION_1000:0 "1000%"
+ RULE_YES_ADD_CONSTRUCTION_BONUS_DESC:0 "Adds a construction bonus of said amount to everyone via national spirit"
+
+ construction_50:0 "MDMP Construction"
+ construction_100:0 "MDMP Construction"
+ construction_200:0 "MDMP Construction"
+ construction_300:0 "MDMP Construction"
+ construction_500:0 "MDMP Construction"
+ construction_1000:0 "MDMP Construction"
+
+#production#
+ RULE_ADD_PRODUCTION_BONUS:0 "Production Bonus"
+ RULE_OPTION_PRODUCTION_50:0 "50%"
+ RULE_OPTION_PRODUCTION_100:0 "100%"
+ RULE_OPTION_PRODUCTION_200:0 "200%"
+ RULE_OPTION_PRODUCTION_300:0 "300%"
+ RULE_OPTION_PRODUCTION_500:0 "500%"
+ RULE_OPTION_PRODUCTION_1000:0 "1000%"
+ RULE_OPTION_PRODUCTION_50_DESC:0 "Adds a 50% military factory output and 25% naval output bonus to everyone"
+ RULE_OPTION_PRODUCTION_100_DESC:0 "Adds a 100% military factory output and 50% naval output bonus to everyone"
+ RULE_OPTION_PRODUCTION_200_DESC:0 "Adds a 200% military factory output and 100% naval output bonus to everyone"
+ RULE_OPTION_PRODUCTION_300_DESC:0 "Adds a 300% military factory output and 150% naval output bonus to everyone"
+ RULE_OPTION_PRODUCTION_500_DESC:0 "Adds a 500% military factory output and 250% naval output bonus to everyone"
+
+ production_50:0 "MDMP Production"
+ production_100:0 "MDMP Production"
+ production_200:0 "MDMP Production"
+ production_300:0 "MDMP Production"
+ production_500:0 "MDMP Production"
+
+#capacity#
+ RULE_ADD_CAPACITY_BONUS:0 "Build Slot Bonus"
+ RULE_OPTION_CAPACITY_25:0 "25%"
+ RULE_OPTION_CAPACITY_50:0 "50%"
+ RULE_OPTION_CAPACITY_100:0 "100%"
+ RULE_OPTION_CAPACITY_200:0 "200%"
+ RULE_YES_ADD_CAPACITY_BONUS_DESC:0 "Adds a build slot bonus of selected amount via national spirit to everyone"
+
+ capacity_25:0 "MDMP Capacity"
+ capacity_50:0 "MDMP Capacity"
+ capacity_100:0 "MDMP Capacity"
+ capacity_200:0 "MDMP Capacity"
+
+#fuel#
+ RULE_ADD_FUEL_BONUS:0 "Fuel Bonus"
+ RULE_OPTION_FUEL_50:0 "50%"
+ RULE_OPTION_FUEL_100:0 "100%"
+ RULE_OPTION_FUEL_200:0 "200%"
+ RULE_OPTION_FUEL_300:0 "300%"
+ RULE_OPTION_FUEL_500:0 "500%"
+ RULE_YES_ADD_FUEL_BONUS_DESC:0 "Adds a fuel gain bonus of selected amount via national spirit to everyone"
+
+ fuel_50:0 "MDMP Fuel"
+ fuel_100:0 "MDMP Fuel"
+ fuel_200:0 "MDMP Fuel"
+ fuel_300:0 "MDMP Fuel"
+ fuel_500:0 "MDMP Fuel"
+
+#Research#
+ RULE_ADD_RESEARCH_BONUS:0 "Research Bonus"
+ RULE_OPTION_RESEARCH_25:0 "25%"
+ RULE_OPTION_RESEARCH_50:0 "50%"
+ RULE_OPTION_RESEARCH_100:0 "100%"
+ RULE_OPTION_RESEARCH_200:0 "200%"
+ RULE_OPTION_RESEARCH_300:0 "300%"
+ RULE_OPTION_RESEARCH_500:0 "500%"
+ RULE_YES_ADD_RESEARCH_BONUS_DESC:0 "Adds a research bonus of selected amount via national spirit to everyone"
+
+ research_25:0 "MDMP Research"
+ research_50:0 "MDMP Research"
+ research_100:0 "MDMP Research"
+ research_200:0 "MDMP Research"
+ research_300:0 "MDMP Research"
+ research_500:0 "MDMP Research"
+
+#Focustime#
+ RULE_REDUCE_FOCUS_TIME:0 "WIP"
+ RULE_NO_ADD_FOCS_BONUS_OPTION_DESC:0 "WIP"
+ RULE_OPTION_THREEQUARTERS:0 "WIP3/4"
+ RULE_OPTION_HALF:0 "WIP1/2"
+ RULE_OPTION_ONEQUARTER:0 "WIP1/4"
+ RULE_OPTION_SEVENTH:0 "WIP1/7"
+ RULE_OPTION_CHAOS:0 "WIP0/7"

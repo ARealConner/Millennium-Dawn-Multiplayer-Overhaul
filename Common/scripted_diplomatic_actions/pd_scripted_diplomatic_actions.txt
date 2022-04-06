@@ -209,7 +209,7 @@ scripted_diplomatic_actions = {
 		
 		ai_acceptance = {
 			pd_base_reluctance = {
-				base = -100
+				base = -100000
 			}
 			
 			pd_close_to_surrender = {
