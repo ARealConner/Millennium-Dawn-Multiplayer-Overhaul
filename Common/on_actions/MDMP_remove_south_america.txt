@@ -1,0 +1,34 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = remove_south_america
+						option = yes
+					}
+				}
+				ZZZ = {
+					annex_country = { target = BRA transfer_troops = no }
+					annex_country = { target = PRU transfer_troops = no }
+					annex_country = { target = COL transfer_troops = no }
+					annex_country = { target = VEN transfer_troops = no }
+					annex_country = { target = PAR transfer_troops = no }
+					annex_country = { target = ARG transfer_troops = no }
+					annex_country = { target = CHL transfer_troops = no }
+					every_state = {
+						limit = {		
+							is_controlled_by = ZZZ
+						}
+						if = {
+							limit = {
+								NOT = { is_core_of = ZZZ }
+							}
+							add_core_of = ZZZ
+						}
+					}
+				}
+			}
+		}
+	}
+}

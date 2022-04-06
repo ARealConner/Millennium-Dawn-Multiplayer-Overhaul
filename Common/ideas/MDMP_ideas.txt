@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+	
+		MDMP_modifiers = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ai_great_depression
+
+			
+			modifier = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = remove_starting_planes
+							option = yes
+						}
+					}
+					political_power_factor = -2.0
+				}
+			}
+		}
+	}
+}
