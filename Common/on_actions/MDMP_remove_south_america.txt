@@ -16,6 +16,12 @@ on_actions = {
 					annex_country = { target = PAR transfer_troops = no }
 					annex_country = { target = ARG transfer_troops = no }
 					annex_country = { target = CHL transfer_troops = no }
+					annex_country = { target = BOL transfer_troops = no }
+					annex_country = { target = ECU transfer_troops = no }
+					annex_country = { target = URG transfer_troops = no }
+					annex_country = { target = SUR transfer_troops = no }
+					annex_country = { target = GUY transfer_troops = no }
+
 					every_state = {
 						limit = {		
 							is_controlled_by = ZZZ
