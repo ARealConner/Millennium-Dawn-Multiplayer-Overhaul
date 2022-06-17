@@ -35,6 +35,24 @@ on_actions = {
 					}
 				}
 			}
+			every_state = {
+				limit = {		
+					is_controlled_by = ZZZ
+				}
+				remove_building = { type = arms_factory  level = 20 } 
+				remove_building = { type = industrial_complex  level = 20 }
+				remove_building = { type = dockyard  level = 20 }
+				remove_building = { type = infrastructure  level = 5 }
+				remove_building = { type = air_base  level = 10 }
+				remove_building = { type = anti_air_building  level = 5 }
+				remove_building = { type = radar_station  level = 5 }
+				if = {
+					limit = {
+						NOT = { is_core_of = ZZZ }
+					}
+					add_core_of = ZZZ
+				}
+			}
 		}
 	}
 }
