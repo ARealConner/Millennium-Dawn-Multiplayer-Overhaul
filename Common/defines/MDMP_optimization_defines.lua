@@ -21,8 +21,8 @@ NDefines.NTrade.RELATION_TRADE_FACTOR = 0				-- Trade factor is modified by Opin
 NDefines.NTechnology.MAX_SUBTECHS = 4                                 -- Added to stop weird things from happening with the amphibious tank variants 
 
 -- QOL
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 480
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 20    							-- 
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 100    							-- 
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12				-- WAS 48 | drastically cuts down on save file sizes after WW2 starts and well into barbarossa
 NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 14					     	 -- WAS 60 	| less messages lying around at the top of your screen
 NDefines.NGame.GAME_SPEED_SECONDS = { 600.0, 0.5, 0.2, 0.06, 0.0 } -- SPEED 4 IS 0.1 IN VANILLA  game speeds for each level. Must be 5 entries with last one 0 for unbound 

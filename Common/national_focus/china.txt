@@ -13198,37 +13198,7 @@ communist_cadres_at_least_positive_opinion = yes
 				tooltip = CHI_aggression_less_-10_tt
 				check_variable = { chinese_aggression < -9 }
 			}
-			BRM = {
-				has_opinion = {
-					target = CHI
-					value > 24
-				}
-			}
-			BRU = {
-				has_opinion = {
-					target = CHI
-					value > 24
-				}
-			}
-			CBD = {
-				has_opinion = {
-					target = CHI
-					value > 24
-				}
-			}
 			IND = {
-				has_opinion = {
-					target = CHI
-					value > 24
-				}
-			}
-			LAO = {
-				has_opinion = {
-					target = CHI
-					value > 24
-				}
-			}
-			MAY = {
 				has_opinion = {
 					target = CHI
 					value > 24
@@ -13241,12 +13211,6 @@ communist_cadres_at_least_positive_opinion = yes
 				}
 			}
 			SIA = {
-				has_opinion = {
-					target = CHI
-					value > 24
-				}
-			}
-			VIE = {
 				has_opinion = {
 					target = CHI
 					value > 24

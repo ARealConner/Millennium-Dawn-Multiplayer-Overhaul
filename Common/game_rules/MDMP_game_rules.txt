@@ -216,7 +216,7 @@ remove_south_america = {
 	default = {
 		name = no
 		text = "RULE_OPTION_NO"
-		desc = "RULE_NO_ADD_BONUS_OPTION_DESC"
+		desc = "RULE_NO_REMOVE_SOUTH_AMERICA_DESC"
 	}
 }
 
