@@ -1,6 +1,44 @@
+###SOUTH-AMERICA####
+remove_south_america = {
+	name = "RULE_REMOVE_SOUTH_AMERICA"
+	group = "MDMP_OPTIMIZATION_RULES"
+	icon = "GFX_production_licenses"
+	option = {
+		name = yes
+		text = "RULE_OPTION_YES"
+		desc = "RULE_YES_REMOVE_SOUTH_AMERICA_DESC"
+	}
+	default = {
+		name = no
+		text = "RULE_OPTION_NO"
+		desc = "RULE_NO_REMOVE_SOUTH_AMERICA_DESC"
+	}
+}
+
+####DISABLE-AI####
+disable_ai_nations = {
+	name = "RULE_DISABLE_AI_NATIONS"
+	group = "MDMP_OPTIMIZATION_RULES"
+	icon = "GFX_production_licenses"
+	option = {
+		name = yes
+		text = "RULE_OPTION_YES"
+		desc = "RULE_YES_DISABLE_AI_NATIONS_DESC"
+	}
+	default = {
+		name = no
+		text = "RULE_OPTION_NO"
+		desc = "RULE_NO_DISABLE_AI_NATIONS_DESC"
+	}
+}
+
+###SATELLITES####
+
+
+####PLANES####
 remove_starting_planes = {
 	name = "RULE_REMOVE_STARTING_PLANES"
-	group = "MDMP_RULES"
+	group = "MDMP_BALANCE_RULES"
 	icon = "GFX_production_licenses"
 	option = {
 		name = yes
@@ -17,7 +55,7 @@ remove_starting_planes = {
 ####CONSTRUCTION####
 add_construction_bonus = {
 	name = "RULE_ADD_CONSTRUCTION_BONUS"
-	group = "MDMP_RULES"
+	group = "MDMP_BALANCE_RULES"
 	icon = "GFX_production_licenses"
 	option = {
 		name = c50
@@ -59,7 +97,7 @@ add_construction_bonus = {
 ####PRODUCTION####
 add_production_bonus = {
 	name = "RULE_ADD_PRODUCTION_BONUS"
-	group = "MDMP_RULES"
+	group = "MDMP_BALANCE_RULES"
 	icon = "GFX_production_licenses"
 	option = {
 		name = p50
@@ -96,7 +134,7 @@ add_production_bonus = {
 ####PRODUCTION####
 add_capacity_bonus = {
 	name = "RULE_ADD_CAPACITY_BONUS"
-	group = "MDMP_RULES"
+	group = "MDMP_BALANCE_RULES"
 	icon = "GFX_production_licenses"
 	option = {
 		name = c25
@@ -128,7 +166,7 @@ add_capacity_bonus = {
 ####FUELGAIN####
 add_fuel_bonus = {
 	name = "RULE_ADD_FUEL_BONUS"
-	group = "MDMP_RULES"
+	group = "MDMP_BALANCE_RULES"
 	icon = "GFX_production_licenses"
 	option = {
 		name = f50
@@ -165,7 +203,7 @@ add_fuel_bonus = {
 ####RESEARCH####
 add_research_bonus = {
 	name = "RULE_ADD_RESEARCH_BONUS"
-	group = "MDMP_RULES"
+	group = "MDMP_BALANCE_RULES"
 	icon = "GFX_production_licenses"
 	option = {
 		name = r25
@@ -204,26 +242,11 @@ add_research_bonus = {
 	}
 }
 
-remove_south_america = {
-	name = "RULE_REMOVE_SOUTH_AMERICA"
-	group = "MDMP_RULES"
-	icon = "GFX_production_licenses"
-	option = {
-		name = yes
-		text = "RULE_OPTION_YES"
-		desc = "RULE_YES_REMOVE_SOUTH_AMERICA_DESC"
-	}
-	default = {
-		name = no
-		text = "RULE_OPTION_NO"
-		desc = "RULE_NO_REMOVE_SOUTH_AMERICA_DESC"
-	}
-}
 
 ####FOCUSTIME####
 reduce_focus_time = {
 	name = "RULE_REDUCE_FOCUS_TIME"
-	group = "MDMP_RULES"
+	group = "MDMP_BALANCE_RULES"
 	icon = "GFX_production_licenses"
 	default = {
 		name = no

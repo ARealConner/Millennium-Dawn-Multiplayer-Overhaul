@@ -1,7 +1,8 @@
 ﻿l_english:
  RULE_NO_ADD_BONUS_OPTION_DESC:0 "leave as default"
+ MDMP_BALANCE_RULES:0 "MDMP Balance Rules"
+ MDMP_OPTIMIZATION_RULES:0 "MDMP Optimization Rules"
 #planes#
- MDMP_RULES:0 "MDMP Custom Rules"
  RULE_REMOVE_STARTING_PLANES:0 "Remove Starting Planes"
  RULE_YES_REMOVE_STARTING_PLANES_DESC:0 "This will delete all starting planes in stockpile."
  RULE_NO_REMOVE_STARTING_PLANES_DESC:0 "This will leave all airforces the same."

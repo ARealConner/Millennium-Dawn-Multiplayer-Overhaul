@@ -1,0 +1,20 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = disabled_ai_nation
+						option = yes
+					}
+					every_country = {
+						if = {
+							is_ai_controlled = yes
+						}
+						add_ideas = disabled_ai_nation
+					}
+				}
+			}
+		}
+	}
+}

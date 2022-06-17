@@ -8,7 +8,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				always = no
 			}
 
 			removal_cost = -1
@@ -24,6 +24,7 @@ ideas = {
 				line_change_production_efficiency_factor = -5
 				enemy_declare_war_tension = 2.0
 				conscription_factor = -1.0
+				conscription = -1
 				min_export = 1.0
 				trade_opinion_factor = -1.0
 				disabled_ideas = 1

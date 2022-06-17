@@ -1,0 +1,17 @@
+﻿l_english:
+#ZZZ AI STUFF#
+ ai_reduce_spam:0 "AI Rights Law"
+ ai_reduce_spam_desc:0 "Only To Serve"
+ POLITICS_TOMAS_COPIN_DESC:0 "Its Tomas Copin"
+
+#Remove SA#
+ RULE_REMOVE_SOUTH_AMERICA:0 "Remove South America"
+ RULE_YES_REMOVE_SOUTH_AMERICA_DESC:0 "Deletes South America"
+ RULE_NO_REMOVE_SOUTH_AMERICA_DESC:0 "Doesn't Delete South America"
+
+#Disable AI#
+ RULE_DISABLE_AI_NATIONS:0 "Disable AI Nations"
+ RULE_YES_DISABLE_AI_NATIONS_DESC:0 "Adds a national spirit to all ai nations that prevents them from doing anything speeding up the game"
+ RULE_NO_DISABLE_AI_NATIONS_DESC:0 "AI nations will have their full capabilities. Recommended for lower player count or singleplayer games"
+ disabled_ai_nation:0 "AI Rights Law"
+ disabled_ai_nation_desc:0 "Only To Serve"
