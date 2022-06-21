@@ -93,7 +93,7 @@ on_actions = {
 				calculate_SAM_MD_land_gui_vars = yes
 				calculate_ABM_sea_gui_vars = yes
 				calculate_ABM_land_gui_vars = yes
-				set_sat_orbit_startup = yes
+				#set_sat_orbit_startup = yes
 				
 				# moved to ABK
 				#set_all_sat_system_tech = yes
@@ -196,7 +196,7 @@ on_actions = {
 				calculate_SAM_MD_land_gui_vars = yes
 				calculate_ABM_sea_gui_vars = yes
 				calculate_ABM_land_gui_vars = yes
-				set_sat_orbit_startup = yes
+				#set_sat_orbit_startup = yes
 				set_variable = { var_nuclear_material_nuclear_deterrence_factor = 0.005 }
 				### sat gui testing
 				# resize_array = { payload_types_array = 4 }
@@ -260,7 +260,7 @@ on_actions = {
 				calculate_SAM_MD_land_gui_vars = yes
 				calculate_ABM_sea_gui_vars = yes
 				calculate_ABM_land_gui_vars = yes
-				set_sat_orbit_startup = yes
+				#set_sat_orbit_startup = yes
 				set_variable = { var_nuclear_material_nuclear_deterrence_factor = 0.005 }
 				### sat gui testing
 				# add_to_array = { payload_types_array = 1 }

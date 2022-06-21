@@ -15,3 +15,7 @@
  RULE_NO_DISABLE_AI_NATIONS_DESC:0 "AI nations will have their full capabilities. Recommended for lower player count or singleplayer games"
  disabled_ai_nation:0 "AI Rights Law"
  disabled_ai_nation_desc:0 "Only To Serve"
+ REMOVE_AI_LIMITER:0 "Remove AI Limiter"
+ REMOVE_AI_LIMITER_desc:0 "Removes AI Limiter"
+ REMOVE_AI_LIMITER_DECISION:0 "Remove AI Limiter"
+ REMOVE_AI_LIMITER_DECISION_desc:0 "Removes AI Limiter"
