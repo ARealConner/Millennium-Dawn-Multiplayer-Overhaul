@@ -2,6 +2,35 @@ on_actions = {
 	on_startup = {
 		effect = {
 			every_country = {
+				####AIRCRAFT COST####
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = reduce_aircraft_cost
+							option = a25
+						}
+					}
+					add_ideas = { aircraft_25 }
+				}
+				else_if = {
+					limit = {
+						has_game_rule = {
+							rule = reduce_aircraft_cost
+							option = a50
+						}
+					}
+					add_ideas = { aircraft_50 }
+				}
+				else_if = {
+					limit = {
+						has_game_rule = {
+							rule = reduce_aircraft_cost
+							option = a75
+						}
+					}
+					add_ideas = { aircraft_75 }
+				}
+
 				####CONSTRUCTION####
 				if = {
 					limit = {

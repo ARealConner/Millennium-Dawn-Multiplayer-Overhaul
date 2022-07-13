@@ -32,7 +32,7 @@ disable_ai_nations = {
 	}
 }
 
-####PLANES####
+####REMOVE STARTING PLANES####
 remove_starting_planes = {
 	name = "RULE_REMOVE_STARTING_PLANES"
 	group = "MDMP_BALANCE_RULES"
@@ -46,6 +46,50 @@ remove_starting_planes = {
 		name = no
 		text = "RULE_OPTION_NO"
 		desc = "RULE_NO_REMOVE_STARTING_PLANES_DESC"
+	}
+}
+
+####Reduce Aircraft Production Cost####
+reduce_aircraft_cost = {
+	name = "RULE_REDUCE_AIRCRAFT_COST"
+	group = "MDMP_BALANCE_RULES"
+	icon = "GFX_production_licenses"
+	option = {
+		name = a25
+		text = "RULE_OPTION_PLANES_25"
+		desc = "RULE_25_REDUCE_AIRCRAFT_COST_DESC"
+	}
+	option = {
+		name = a50
+		text = "RULE_OPTION_PLANES_50"
+		desc = "RULE_50_REDUCE_AIRCRAFT_COST_DESC"
+	}
+	option = {
+		name = a75
+		text = "RULE_OPTION_PLANES_75"
+		desc = "RULE_75_REDUCE_AIRCRAFT_COST_DESC"
+	}
+	default = {
+		name = no
+		text = "RULE_OPTION_NO"
+		desc = "RULE_NO_REDUCE_AIRCRAFT_COST_DESC"
+	}
+}
+
+####MOD BALANCING####
+enable_mdmp_custom_balancing = {
+	name = "RULE_ENABLE_MDMP_CUSTOM_BALANCE"
+	group = "MDMP_BALANCE_RULES"
+	icon = "GFX_production_licenses"
+	option = {
+		name = yes
+		text = "RULE_OPTION_YES"
+		desc = "RULE_YES_ENABLE_MDMP_CUSTOM_BALANCE_DESC"
+	}
+	default = {
+		name = no
+		text = "RULE_OPTION_NO"
+		desc = "RULE_NO_ENABLE_MDMP_CUSTOM_BALANCE_DESC"
 	}
 }
 

@@ -34,7 +34,8 @@ ideas = {
 				production_factory_start_efficiency_factor = -1
 			}
 		}
-
+	}
+	hidden_ideas = {
 		####CONSTRUCTION####
 		construction_50 = {
 			
@@ -520,6 +521,215 @@ ideas = {
 
 			modifier = {
 				fuel_gain_factor = 5
+			}
+		}
+
+		#Aircraft Cost Reduction
+		aircraft_25 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			picture = generic_air_bonus
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}				
+				CAS_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}
+				strategic_bomber_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}	
+				tac_bomber_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}
+				Strike_fighter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}	
+				L_Strike_fighter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}	
+				AS_Fighter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}	
+				MR_Fighter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}	
+				Air_UAV_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}	
+				transport_plane_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}	
+				nav_plane_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}	
+
+				#Helicopters
+				attack_helicopter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}			
+				transport_helicopter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}		
+
+				#Carrier
+				CV_L_Strike_fighter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}		
+				CV_MR_Fighter_equipment = {
+					build_cost_ic = -0.25 instant = yes
+				}			
+			}
+		}
+		aircraft_50 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			picture = generic_air_bonus
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}				
+				CAS_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}
+				strategic_bomber_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}	
+				tac_bomber_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}
+				Strike_fighter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}	
+				L_Strike_fighter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}	
+				AS_Fighter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}	
+				MR_Fighter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}	
+				Air_UAV_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}	
+				transport_plane_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}	
+				nav_plane_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}	
+
+				#Helicopters
+				attack_helicopter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}			
+				transport_helicopter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}		
+
+				#Carrier
+				CV_L_Strike_fighter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}		
+				CV_MR_Fighter_equipment = {
+					build_cost_ic = -0.50 instant = yes
+				}			
+			}
+		}
+		aircraft_75 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			picture = generic_air_bonus
+
+			removal_cost = -1
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}				
+				CAS_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}
+				strategic_bomber_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}	
+				tac_bomber_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}
+				Strike_fighter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}	
+				L_Strike_fighter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}	
+				AS_Fighter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}	
+				MR_Fighter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}	
+				Air_UAV_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}	
+				transport_plane_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}	
+				nav_plane_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}	
+
+				#Helicopters
+				attack_helicopter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}			
+				transport_helicopter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}		
+
+				#Carrier
+				CV_L_Strike_fighter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}		
+				CV_MR_Fighter_equipment = {
+					build_cost_ic = -0.75 instant = yes
+				}			
 			}
 		}
 	}

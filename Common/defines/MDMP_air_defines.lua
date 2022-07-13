@@ -20,3 +20,22 @@ NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DISRUPTION_MIN_DAMAGE_FACTOR = 0.01 -- M
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_MAX_DISRUPTION_DAMAGE_TO_CONSIDER = 5.0 -- see above
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DIRECT_DISRUPTION_DAMAGE_FACTOR = 0.001 -- Disruption damage to supply throughput done by bombing damage, not dependant on killing trains which also causes diruption.
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.7 -- max trucks we can destroy in one instance of a logistics strike
+
+-- Strat Nerf
+NDefines.NAir.DISRUPTION_FACTOR = 4.0								-- multiplier on disruption damage to scale its effects on planes
+NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 8.0							-- multiplier on disruption damage to scale its effects on carrier vs carrier planes
+NDefines.NAir.DISRUPTION_SPEED_FACTOR = 1.0
+NDefines.NAir.DISRUPTION_AGILITY_FACTOR = 0.0
+NDefines.NAir.DISRUPTION_ATTACK_FACTOR = 0.0
+NDefines.NAir.DISRUPTION_DETECTION_FACTOR = 1.0
+NDefines.NAir.ESCORT_FACTOR = 2.0
+NDefines.NAir.ESCORT_SPEED_FACTOR = 1.0
+NDefines.NAir.ESCORT_AGILITY_FACTOR = 1.0
+NDefines.NAir.ESCORT_ATTACK_FACTOR = 1.0
+NDefines.NAir.DISRUPTION_DEFENCE_DEFENCE_FACTOR = 0.5
+NDefines.NAir.DISRUPTION_DEFENCE_SPEED_FACTOR = 1.0
+NDefines.NAir.DISRUPTION_DEFENCE_ATTACK_FACTOR = 0.0
+NDefines.NAir.AIR_WING_BOMB_DAMAGE_FACTOR = 0.4 -- MD had 75 or 37.5x vanilla which was insane
+NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.1 -- 0.015
+-- General air death increase
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.2 -- 0.1
