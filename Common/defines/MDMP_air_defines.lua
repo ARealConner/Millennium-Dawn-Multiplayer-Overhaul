@@ -39,3 +39,7 @@ NDefines.NAir.AIR_WING_BOMB_DAMAGE_FACTOR = 0.4 -- MD had 75 or 37.5x vanilla wh
 NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.1 -- 0.015
 -- General air death increase
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.2 -- 0.1
+
+-- Decrease Air Training Time
+NDefines.NAir.AIR_WING_XP_TRAINING_MAX = 600 -- 300
+NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_GAIN_DAILY = 300.0 -- 3.3

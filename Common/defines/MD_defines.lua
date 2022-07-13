@@ -128,7 +128,6 @@
 	NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 15 --24
 	NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 4 -- Vanilla 5
 	
-	NDefines.NMilitary.COMBAT_MINIMUM_TIME = 8 -- 4
 	NDefines.NMilitary.LAND_COMBAT_ORG_DICE_SIZE = 2 -- 4
 	NDefines.NMilitary.LAND_COMBAT_STR_DICE_SIZE = 6 -- 2
 	NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.003 -- 0.05
@@ -176,8 +175,6 @@
 	NDefines.NMilitary.PARADROP_PENALTY = -0.15 -- -0.3
 	NDefines.NMilitary.PARADROP_HOURS = 12 -- 48
 	NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.25 -- 0.20
-	NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.3 -- 0.2
-	NDefines.NMilitary.PLANNING_MAX = 0.1 -- 0.3
 	NDefines.NMilitary.CIVILWAR_ORGANIZATION_FACTOR = 1.0 -- 0.3
 	NDefines.NMilitary.PLAN_CONSIDERED_GOOD = 2.5 -- 0.25
 	NDefines.NMilitary.PLAN_PROVINCE_BASE_IMPORTANCE = 1.0 -- 2.0
@@ -192,7 +189,6 @@
     NDefines.NMilitary.STRATEGIC_SPEED_RAIL_BASE = 20.0               -- Base speed of strategic redeployment when on railways -- vanilla is 15
     NDefines.NMilitary.STRATEGIC_SPEED_RAIL_MAX = 40.0                -- Additional speed of strategic redeployment on max-level railways -- vanilla is 25
 	NDefines.NMilitary.STRATEGIC_REDEPLOY_ORG_RATIO = 0.5 -- 0.1
-	NDefines.NMilitary.LAND_EQUIPMENT_BASE_COST = 5 -- 10 --Used to determine Upgrade Cost
 	
 	NDefines.NMilitary.NAVAL_EQUIPMENT_BASE_COST = 15 -- 25
 	NDefines.NMilitary.AIR_EQUIPMENT_BASE_COST = 25 -- 25
@@ -214,18 +210,12 @@
 	NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0003 -- 0.0001
 	NDefines.NMilitary.UNIT_EXPERIENCE_SCALE = 0.25 -- 1.0
 	
-	NDefines.NMilitary.TRAINING_EXPERIENCE_SCALE = 62.0 -- 62.0
 	NDefines.NMilitary.UNIT_EXP_LEVELS = {0.1, 0.3, 0.75, 0.9} -- {0.1, 0.3, 0.75, 0.9}
 	NDefines.NMilitary.FIELD_EXPERIENCE_SCALE = 0.001 -- 0.0015
-	NDefines.NMilitary.TRAINING_MAX_LEVEL = 3 -- 2
 	NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 1.2 -- 1.2
 	NDefines.NMilitary.LEADER_EXPERIENCE_SCALE = 1.25 -- 1.0
 	NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.55 -- 0.45
 	
-	
-	
-	NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000 --500
-	NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 1000 --500
 	NDefines.NMilitary.SHIP_MORALE_TO_ORG_REGAIN_BASE = 0.25 -- buffed from 0.2 -- Handles the Hourly Reorganization
 	NDefines.NMilitary.ENGAGEMENT_WIDTH_PER_WIDTH = 3.0                    -- how much enemy combat width we are allowed to engage per width of our own -- vanilla is 2.0
 
@@ -299,9 +289,7 @@
 	NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 1 -- 20
 	NDefines.NAir.EFFICIENCY_REGION_CHANGE_PENALTY_FACTOR = 0.1 -- 0.9
 	NDefines.NAir.AIR_WING_XP_MAX = 1500.0 -- 1000.0
-	NDefines.NAir.AIR_WING_XP_TRAINING_MAX = 1100 -- 300
 	NDefines.NAir.AIR_WING_XP_LEVELS = {300, 600, 1100, 1400} -- {100, 300, 700, 900}
-	NDefines.NAir.AIR_WING_XP_TRAINING_MISSION_GAIN_DAILY = 1.25 -- 3.3
 	NDefines.NAir.AIR_WING_XP_AIR_VS_AIR_COMBAT_GAIN = 2.0 -- 0.8
 	NDefines.NAir.AIR_WING_XP_GROUND_MISSION_COMPLETED_GAIN = 1.2 -- 0.28
 	NDefines.NAir.AIR_WING_XP_RECON_MISSION_COMPLETED_GAIN = 0.12 -- 0.05
