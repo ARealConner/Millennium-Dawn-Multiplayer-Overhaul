@@ -1,6 +1,6 @@
 version="1.1"
 dependencies={
-	"Millennium Dawn: A Modern Day Mod1"
+	"Millennium Dawn: A Modern Day Mod"
 }
 tags={
 	"Military"

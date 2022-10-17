@@ -1,0 +1,38 @@
+state = {
+	id = 858
+	name = "STATE_858"
+	manpower = 1
+	state_category = state_00
+	
+	resources = {
+	   aluminium = 13 #Light Metals
+}
+
+	history = {
+		owner = ZZZ
+		victory_points = { 12477 1 } #Montego Bay
+		victory_points = { 12304 5 } #Kingston
+		buildings = {
+			infrastructure = 1
+			internet_station = 0
+			air_base = 0
+			
+			12304 = {
+				naval_base = 0
+			}
+
+		}
+		add_core_of = ZZZ
+		2017.1.1 = {
+			buildings = {
+				internet_station = 0
+			}
+			add_manpower = 1
+		}
+	}
+
+	provinces = {
+		  12304 12477 13330
+		
+		}
+}

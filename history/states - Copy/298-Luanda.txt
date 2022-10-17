@@ -1,0 +1,57 @@
+
+state = {
+	id = 298
+	name = "STATE_298"
+	resources = {
+		oil = 12
+		steel = 4
+	}
+
+	history = {
+		owner = ZZZ
+		victory_points = {
+			13348 10
+		}
+		buildings = {
+			infrastructure = 2
+			internet_station = 0
+			air_base = 0
+			13348 = {
+				naval_base = 0
+
+			}
+
+		}
+		add_core_of = ZZZ
+		add_core_of = ZZZ
+		ZZZ = {
+			set_province_controller = 13349
+			set_province_controller = 13350
+			set_province_controller = 8248
+			set_province_controller = 9529
+		}
+		2017.1.1 = {
+			buildings = {
+				internet_station = 0
+				offices = 0
+			}
+			remove_core_of = ZZZ
+			ZZZ = {
+				set_province_controller = 13349
+				set_province_controller = 13350
+				set_province_controller = 8248
+				set_province_controller = 9529
+			}
+			add_manpower = 1
+			add_manpower = 1
+			add_manpower = 1
+		}
+	}
+
+	provinces = {
+		5158 8248 9529 13348 13349 13350 13351
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}

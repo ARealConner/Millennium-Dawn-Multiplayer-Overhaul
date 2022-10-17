@@ -1,0 +1,24 @@
+
+state = {
+	id = 413
+	name = "STATE_413"
+
+	impassable = yes
+
+	history = {
+		owner = ZZZ
+		add_core_of = ZZZ
+		2017.1.1 = {
+			add_manpower = 1
+
+		}
+
+	}
+
+	provinces = {
+		7943 
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}

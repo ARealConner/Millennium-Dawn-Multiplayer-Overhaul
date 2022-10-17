@@ -1,0 +1,32 @@
+state = {
+	id = 921
+	name = "STATE_921"
+	
+	history = {
+		owner = ZZZ
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 0
+			internet_station = 0
+		}
+		victory_points = {
+			1974 1 
+		}
+		2017.1.1 = {
+			buildings = {
+				internet_station = 0
+			}
+			owner = ZZZ
+			add_core_of = ZZZ
+			add_core_of = ZZZ
+			add_core_of = ZZZ
+			add_manpower = 1
+		}
+	}
+	provinces = {
+		1883 1974 5084 7919 9319 9333 9344 9345 9348 9353 
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}

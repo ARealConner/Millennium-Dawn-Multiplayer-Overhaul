@@ -1,0 +1,52 @@
+
+state = {
+	id = 302
+	name = "STATE_302"
+
+	history = {
+		owner = ZZZ
+		victory_points = {
+			5117 15 
+		}
+		victory_points = {
+			3674 5 
+		}
+		victory_points = {
+			10968 5 
+		}
+		buildings = {
+			infrastructure = 1
+			internet_station = 0
+			offices = 0
+			air_base = 0
+			10968 = {
+				naval_base = 0
+
+			}
+
+		}
+		add_core_of = ZZZ
+		add_core_of = ZZZ
+		add_core_of = ZZZ
+		2017.1.1 = {
+			buildings = {
+				internet_station = 0
+				industrial_complex = 0
+			}
+			remove_core_of = ZZZ
+			remove_core_of = ZZZ
+			add_manpower = 1
+			add_manpower = 1
+			add_manpower = 1
+			add_manpower = 1
+			add_manpower = 1
+		}
+	}
+
+	provinces = {
+		5117 10968 12925 3674 13392 13393 13394 13395 13396 13397 13398
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}

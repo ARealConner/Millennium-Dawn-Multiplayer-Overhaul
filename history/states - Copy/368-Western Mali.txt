@@ -1,0 +1,44 @@
+
+state = {
+	id = 368
+	name = "STATE_368"
+
+	resources = {
+		steel = 6
+		aluminium = 1
+	}
+	history = {
+		owner = ZZZ
+		victory_points = {
+			12751 10
+		}
+		victory_points = {
+			2012 1
+		}
+		victory_points = {
+			10829 1
+		}
+		buildings = {
+			infrastructure = 1
+			internet_station = 0
+			air_base = 0
+
+		}
+		add_core_of = ZZZ
+		2017.1.1 = {
+			add_manpower = 1
+			add_manpower = 1
+			buildings = {
+				internet_station = 0
+				industrial_complex = 0
+			}
+		}
+	}
+
+	provinces = {
+		2012 10812 10829 10915 12751 7857 9231 9251 9247
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}
