@@ -1,0 +1,37 @@
+
+state = {
+	id = 354
+	name = "STATE_354"
+
+	history = {
+		owner = ZZZ
+		victory_points = {
+			8065 4
+		}
+		victory_points = {
+			5070 1 
+		}
+		buildings = {
+			infrastructure = 0
+			internet_station = 0
+
+		}
+		add_core_of = ZZZ
+		2017.1.1 = {
+			buildings = {
+				internet_station = 0
+			}
+			add_manpower = 1
+			add_manpower = 1
+
+		}
+
+	}
+
+	provinces = {
+		5013 9423 9474 8065 5070 9466 9406 9405 8122
+	}
+	manpower = 1
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}
