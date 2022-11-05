@@ -4,7 +4,7 @@ state = {
 	name = "STATE_425"
 
 	history = {
-		owner = SAUMA
+		owner = SAU
 		victory_points = { 3573 3 } #Khasab
 		buildings = {
 			infrastructure = 1
@@ -14,7 +14,7 @@ state = {
 			}
 
 		}
-		add_core_of = SUAMA
+		add_core_of = SAU
 		2017.1.1 = {
 			buildings = {
 				internet_station = 2

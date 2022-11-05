@@ -6,7 +6,7 @@ state = {
 	#}
 
 	history = {
-		owner = SAUMA
+		owner = SAU
 		victory_points = {
 			11179 1
 		}
@@ -17,7 +17,7 @@ state = {
 
 
 		}
-		add_core_of = SUAMA
+		add_core_of = SAU
 		2017.1.1 = {
 			buildings = {
 				internet_station = 4
