@@ -12,5 +12,5 @@ tags={
 }
 name="Millennium Dawn: Multiplayer Overhaul"
 supported_version="1.12.*"
-path="C:/Users/conne/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/Millennium-Dawn-Multiplayer-Overhaul"
+path="mod/Millennium-Dawn-Multiplayer-Overhaul"
 remote_file_id="2780631790"
