@@ -1,0 +1,118 @@
+﻿l_russian:
+ RULE_NO_ADD_BONUS_OPTION_DESC:0 "оставить по умолчанию"
+ MDMP_BALANCE_RULES:0 "Правила баланса MDMP"
+ MDMP_OPTIMIZATION_RULES:0 "Правила оптимизации MDMP"
+#planes#
+ RULE_REMOVE_STARTING_PLANES:0 "Удалить стартовые самолеты"
+ RULE_YES_REMOVE_STARTING_PLANES_DESC:0 "Это приведет к удалению всех стартовых самолетов из запаса".
+ RULE_NO_REMOVE_STARTING_PLANES_DESC:0 "Это оставит все воздушные силы прежними".
+
+ RULE_REDUCE_AIRCRAFT_COST:0 "Снизит стоимость производства самолетов"
+ RULE_OPTION_PLANES_25:0 "25%"
+ RULE_OPTION_PLANES_50:0 "50%"
+ RULE_OPTION_PLANES_75:0 "75%"
+
+ RULE_25_REDUCE_AIRCRAFT_COST_DESC:0 "Это позволит снизить себестоимость производства всех самолетов на 25%. Поскольку стоимость производства самолетов в MD намного выше, чем в vanilla, и теперь они сбалансированы так, чтобы быть ближе к vanilla, это может быть использовано для компенсации дополнительного ic".
+ RULE_50_REDUCE_AIRCRAFT_COST_DESC:0 "Это позволит снизить себестоимость производства всех самолетов на 50%. Поскольку стоимость производства самолетов в MD намного выше, чем в vanilla, и теперь они сбалансированы так, чтобы быть ближе к vanilla, это может быть использовано для компенсации дополнительного ic
+ RULE_75_REDUCE_AIRCRAFT_COST_DESC:0 ". "Это снизит стоимость производства всех самолетов на 75%. Поскольку стоимость производства самолетов в MD намного выше, чем в vanilla, и теперь они сбалансированы так, чтобы быть ближе к vanilla, это можно использовать для компенсации дополнительного ic."
+ RULE_NO_REDUCE_AIRCRAFT_COST_DESC:0 "Это оставит все затраты прежними".
+
+ aircraft_25:0 "Самолеты MDMP"
+ aircraft_50:0 "Самолеты MDMP"
+ aircraft_75:0 "Самолеты MDMP"
+
+#construction#
+ RULE_ADD_CONSTRUCTION_BONUS:0 "Строительный бонус"
+ RULE_OPTION_CONSTRUCTION_50:0 "50%"
+ RULE_OPTION_CONSTRUCTION_100:0 "100%"
+ RULE_OPTION_CONSTRUCTION_200:0 "200%"
+ RULE_OPTION_CONSTRUCTION_300:0 "300%"
+ RULE_OPTION_CONSTRUCTION_500:0 "500%"
+ RULE_OPTION_CONSTRUCTION_1000:0 "1000%"
+ RULE_YES_ADD_CONSTRUCTION_BONUS_DESC:0 "Добавляет бонус за строительство в размере указанной суммы каждому через national spirit"
+
+ construction_50:0 "MDMP Construction"
+ construction_100:0 "MDMP Construction"
+ construction_200:0 "MDMP Construction"
+ construction_300:0 "MDMP Construction"
+ construction_500:0 "MDMP Construction"
+ construction_1000:0 "MDMP Construction"
+
+#production#
+ RULE_ADD_PRODUCTION_BONUS:0 "Производственный бонус"
+ RULE_OPTION_PRODUCTION_50:0 "50%"
+ RULE_OPTION_PRODUCTION_100:0 "100%"
+ RULE_OPTION_PRODUCTION_200:0 "200%"
+ RULE_OPTION_PRODUCTION_300:0 "300%"
+ RULE_OPTION_PRODUCTION_500:0 "500%"
+ RULE_OPTION_PRODUCTION_1000:0 "1000%"
+ RULE_OPTION_PRODUCTION_50_DESC:0 "Добавляет 50% производительности военного завода и 25% бонуса к военно-морскому производству для всех"
+ RULE_OPTION_PRODUCTION_100_DESC:0 "Добавляет 100% производительности военного завода и 50% бонуса к военно-морскому производству для всех"
+ RULE_OPTION_PRODUCTION_200_DESC:0 "Добавляет 200% производительности военного завода и 100% бонуса к военно-морскому производству для всех"
+ RULE_OPTION_PRODUCTION_300_DESC:0 "Увеличивает производительность военного завода на 300% и военно-морского флота на 150% для всех"
+ RULE_OPTION_PRODUCTION_500_DESC:0 "Добавляет 500% к продукции военного завода и 250% к продукции военно-морского флота для всех"
+
+ production_50:0 "Производство MDMP"
+ production_100:0 "Производство MDMP"
+ production_200:0 "Производство MDMP"
+ production_300:0 "Производство MDMP"
+ production_500:0 "Производство MDMP"
+
+#capacity#
+ RULE_ADD_CAPACITY_BONUS:0 "Производство MDMP"
+ RULE_OPTION_CAPACITY_25:0 "25%"
+ RULE_OPTION_CAPACITY_50:0 "50%"
+ RULE_OPTION_CAPACITY_100:0 "100%"
+ RULE_OPTION_CAPACITY_200:0 "200%"
+ RULE_YES_ADD_CAPACITY_BONUS_DESC:0 "Добавляет каждому бонус за слот сборки в размере выбранной суммы с помощью national spirit"
+
+ capacity_25:0 "Емкость MDMP"
+ capacity_50:0 "Емкость MDMP"
+ capacity_100:0 "Емкость MDMP"
+ capacity_200:0 "Емкость MDMP"
+
+#fuel#
+ RULE_ADD_FUEL_BONUS:0 "Топливный бонус"
+ RULE_OPTION_FUEL_50:0 "50%"
+ RULE_OPTION_FUEL_100:0 "100%"
+ RULE_OPTION_FUEL_200:0 "200%"
+ RULE_OPTION_FUEL_300:0 "300%"
+ RULE_OPTION_FUEL_500:0 "500%"
+ RULE_YES_ADD_FUEL_BONUS_DESC:0 "Добавляет каждому бонус к топливу в размере выбранной суммы с помощью national spirit"
+
+ fuel_50:0 "Топливо MDMP"
+ fuel_100:0 "Топливо MDMP"
+ fuel_200:0 "Топливо MDMP"
+ fuel_300:0 "Топливо MDMP"
+ fuel_500:0 "Топливо MDMP"
+
+#Research#
+ RULE_ADD_RESEARCH_BONUS:0 "Исследовательский бонус"
+ RULE_OPTION_RESEARCH_25:0 "25%"
+ RULE_OPTION_RESEARCH_50:0 "50%"
+ RULE_OPTION_RESEARCH_100:0 "100%"
+ RULE_OPTION_RESEARCH_200:0 "200%"
+ RULE_OPTION_RESEARCH_300:0 "300%"
+ RULE_OPTION_RESEARCH_500:0 "500%"
+ RULE_YES_ADD_RESEARCH_BONUS_DESC:0 "Добавляет каждому исследовательский бонус в размере выбранной суммы с помощью national spirit"
+
+ research_25:0 "MDMP Research"
+ research_50:0 "MDMP Research"
+ research_100:0 "MDMP Research"
+ research_200:0 "Исследование MDMP"
+ research_300:0 "Исследование MDMP"
+ research_500:0 "Исследование MDMP"
+
+#Focustime#
+ RULE_REDUCE_FOCUS_TIME:0 "НЗП"
+ RULE_NO_ADD_FOCS_BONUS_OPTION_DESC:0 "НЗП"
+ RULE_OPTION_THREEQUARTERS:0 "WIP3/4"
+ RULE_OPTION_HALF:0 "WIP1/2"
+ RULE_OPTION_ONEQUARTER:0 "WIP1/4"
+ RULE_OPTION_SEVENTH:0 "WIP1/7"
+ RULE_OPTION_CHAOS:0 "WIP0/7"
+
+#Enable Balancing#
+ RULE_ENABLE_MDMP_CUSTOM_BALANCE:0 "Пользовательский игровой баланс MDMP"
+ RULE_YES_ENABLE_MDMP_CUSTOM_BALANCE_DESC:0 "Изменены заводские настройки, исследования, ресурсы и т.д. Для улучшения общего игрового баланса".
+ RULE_NO_ENABLE_MDMP_CUSTOM_BALANCE_DESC:0 "Все остается таким, каким было изначально в Millenium Dawn".

@@ -1,0 +1,118 @@
+﻿l_german:
+ RULE_NO_ADD_BONUS_OPTION_DESC:0 "als Standard beibehalten"
+ MDMP_BALANCE_RULES:0 "MDMP-Bilanzregeln"
+ MDMP_OPTIMIZATION_RULES:0 "MDMP-Optimierungsregeln"
+#planes#
+ RULE_REMOVE_STARTING_PLANES:0 "Startebenen entfernen"
+ RULE_YES_REMOVE_STARTING_PLANES_DESC:0 "Dadurch werden alle auf Lager befindlichen Startflugzeuge gelöscht."
+ RULE_NO_REMOVE_STARTING_PLANES_DESC:0 "Dies wird alle Luftstreitkräfte gleich lassen."
+
+ RULE_REDUCE_AIRCRAFT_COST:0 "Flugzeugproduktionskosten senken"
+ RULE_OPTION_PLANES_25:0 "25%"
+ RULE_OPTION_PLANES_50:0 "50%"
+ RULE_OPTION_PLANES_75:0 "75%"
+
+ RULE_25_REDUCE_AIRCRAFT_COST_DESC:0 "Dies wird die Produktionskosten aller Flugzeuge um 25% senken. Da Flugzeuge in MD viel höhere Produktionskosten als Vanille haben und jetzt so ausbalanciert sind, dass sie näher an Vanille liegen, kann dies zum Ausgleich des zusätzlichen ic verwendet werden. "
+ RULE_50_REDUCE_AIRCRAFT_COST_DESC:0 "Dies wird die Produktionskosten aller Flugzeuge um 50% senken. Da Flugzeuge in MD viel höhere Produktionskosten als Vanille haben und jetzt so ausbalanciert sind, dass sie näher an Vanille liegen, kann dies zum Ausgleich des zusätzlichen ic verwendet werden. "
+ RULE_75_REDUCE_AIRCRAFT_COST_DESC:0 "Dies wird die Produktionskosten aller Flugzeuge um 75% senken. Da Flugzeuge in MD viel höhere Produktionskosten als Vanille haben und jetzt so ausbalanciert sind, dass sie näher an Vanille liegen, kann dies zum Ausgleich des zusätzlichen ic verwendet werden."
+ RULE_NO_REDUCE_AIRCRAFT_COST_DESC:0 "Dadurch bleiben alle Kosten gleich."
+
+ aircraft_25:0 "MDMP-Flugzeuge"
+ aircraft_50:0 "MDMP-Flugzeuge"
+ aircraft_75:0 "MDMP-Flugzeuge"
+
+#construction#
+ RULE_ADD_CONSTRUCTION_BONUS:0 "Konstruktionsbonus"
+ RULE_OPTION_CONSTRUCTION_50:0 "50%"
+ RULE_OPTION_CONSTRUCTION_100:0 "100%"
+ RULE_OPTION_CONSTRUCTION_200:0 "200%"
+ RULE_OPTION_CONSTRUCTION_300:0 "300%"
+ RULE_OPTION_CONSTRUCTION_500:0 "500%"
+ RULE_OPTION_CONSTRUCTION_1000:0 "1000%"
+ RULE_YES_ADD_CONSTRUCTION_BONUS_DESC:0 "Fügt jedem über National Spirit einen Konstruktionsbonus in dieser Höhe hinzu"
+
+ construction_50:0 "MDMP-Konstruktion"
+ construction_100:0 "MDMP-Konstruktion"
+ construction_200:0 "MDMP-Konstruktion"
+ construction_300:0 "MDMP-Konstruktion"
+ construction_500:0 "MDMP-Konstruktion"
+ construction_1000:0 "MDMP-Konstruktion"
+
+#production#
+ RULE_ADD_PRODUCTION_BONUS:0 "Produktionsbonus"
+ RULE_OPTION_PRODUCTION_50:0 "50%"
+ RULE_OPTION_PRODUCTION_100:0 "100%"
+ RULE_OPTION_PRODUCTION_200:0 "200%"
+ RULE_OPTION_PRODUCTION_300:0 "300%"
+ RULE_OPTION_PRODUCTION_500:0 "500%"
+ RULE_OPTION_PRODUCTION_1000:0 "1000%"
+ RULE_OPTION_PRODUCTION_50_DESC:0 "Fügt jedem einen Bonus von 50% Militärfabrikleistung und 25% Marineleistung hinzu"
+ RULE_OPTION_PRODUCTION_100_DESC:0 "Fügt jedem einen Bonus von 100% militärischer Fabrikleistung und 50% Marineleistung hinzu"
+ RULE_OPTION_PRODUCTION_200_DESC:0 "Fügt jedem einen Bonus von 200% Militärfabrikleistung und 100% Marineleistung hinzu"
+ RULE_OPTION_PRODUCTION_300_DESC:0 "Fügt jedem einen Bonus von 300% Militärfabrikleistung und 150% Marineleistung hinzu"
+ RULE_OPTION_PRODUCTION_500_DESC:0 "Fügt jedem einen Bonus von 500% Militärfabrikleistung und 250% Marineleistung hinzu"
+
+ production_50:0 "MDMP Produktion"
+ production_100:0 "MDMP Produktion"
+ production_200:0 "MDMP Produktion"
+ production_300:0 "MDMP Produktion"
+ production_500:0 "MDMP Produktion"
+
+#capacity#
+ RULE_ADD_CAPACITY_BONUS:0 "Slot-Bonus erstellen"
+ RULE_OPTION_CAPACITY_25:0 "25%"
+ RULE_OPTION_CAPACITY_50:0 "50%"
+ RULE_OPTION_CAPACITY_100:0 "100%"
+ RULE_OPTION_CAPACITY_200:0 "200%"
+ RULE_YES_ADD_CAPACITY_BONUS_DESC:0 "Fügt jedem einen Build-Slot-Bonus in Höhe des ausgewählten Betrags über National Spirit hinzu."
+
+ capacity_25:0 "MDMP-Kapazität"
+ capacity_50:0 "MDMP-Kapazität"
+ capacity_100:0 "MDMP-Kapazität"
+ capacity_200:0 "MDMP-Kapazität"
+
+#fuel#
+ RULE_ADD_FUEL_BONUS:0 "Kraftstoffbonus"
+ RULE_OPTION_FUEL_50:0 "50%"
+ RULE_OPTION_FUEL_100:0 "100%"
+ RULE_OPTION_FUEL_200:0 "200%"
+ RULE_OPTION_FUEL_300:0 "300%"
+ RULE_OPTION_FUEL_500:0 "500%"
+ RULE_YES_ADD_FUEL_BONUS_DESC:0 "Fügt jedem einen Kraftstoffgewinnbonus in ausgewählter Höhe über National Spirit hinzu."
+
+ fuel_50:0 "MDMP-Kraftstoff"
+ fuel_100:0 "MDMP-Kraftstoff"
+ fuel_200:0 "MDMP-Kraftstoff"
+ fuel_300:0 "MDMP-Kraftstoff"
+ fuel_500:0 "MDMP-Kraftstoff"
+
+#Research#
+ RULE_ADD_RESEARCH_BONUS:0 "Forschungsbonus"
+ RULE_OPTION_RESEARCH_25:0 "25%"
+ RULE_OPTION_RESEARCH_50:0 "50%"
+ RULE_OPTION_RESEARCH_100:0 "100%"
+ RULE_OPTION_RESEARCH_200:0 "200%"
+ RULE_OPTION_RESEARCH_300:0 "300%"
+ RULE_OPTION_RESEARCH_500:0 "500%"
+ RULE_YES_ADD_RESEARCH_BONUS_DESC:0 "Fügt jedem einen Forschungsbonus in ausgewählter Höhe über National Spirit hinzu"
+
+ research_25:0 "MDMP-Forschung"
+ research_50:0 "MDMP-Forschung"
+ research_100:0 "MDMP-Forschung"
+ research_200:0 "MDMP-Forschung"
+ research_300:0 "MDMP-Forschung"
+ research_500:0 "MDMP-Forschung"
+
+#Focustime#
+ RULE_REDUCE_FOCUS_TIME:0 "WIP"
+ RULE_NO_ADD_FOCS_BONUS_OPTION_DESC:0 "WIP"
+ RULE_OPTION_THREEQUARTERS:0 "WIP3/4"
+ RULE_OPTION_HALF:0 "WIP1/2"
+ RULE_OPTION_ONEQUARTER:0 "WIP1/4"
+ RULE_OPTION_SEVENTH:0 "WIP1/7"
+ RULE_OPTION_CHAOS:0 "WIP0/7"
+
+#Enable Balancing#
+ RULE_ENABLE_MDMP_CUSTOM_BALANCE:0 "MDMP Benutzerdefinierte Spielbalance"
+ RULE_YES_ENABLE_MDMP_CUSTOM_BALANCE_DESC:0 "Ändert die Anzahl der Fabriken, Forschung, Ressourcen usw. Um insgesamt eine bessere Spielbalance zu schaffen."
+ RULE_NO_ENABLE_MDMP_CUSTOM_BALANCE_DESC:0 "Lässt alles so, wie es Millenium Dawn ursprünglich hatte."
